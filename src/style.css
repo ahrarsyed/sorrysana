@@ -44,3 +44,9 @@
 /* Restore the original handwritten cover title. */
 .cover h1{font-family:'Great Vibes',cursive;font-weight:400;letter-spacing:0;font-size:clamp(48px,7vw,74px);line-height:1.2}
 @media(max-width:600px){.cover h1{font-size:clamp(47px,11vw,66px)}}
+
+/* Keep the note hidden until the cover has finished opening. */
+.note-scroll{opacity:0;visibility:hidden;pointer-events:none;transition:opacity .25s ease,visibility 0s linear .25s}
+.stage-open .note-scroll{opacity:1;visibility:visible;pointer-events:auto;transition:opacity .25s ease}
+@media(max-width:600px){.is-open .cover-hinge{visibility:visible;transition:none}}
+@media(prefers-reduced-motion:reduce){.note-scroll,.stage-open .note-scroll{transition:none}}
