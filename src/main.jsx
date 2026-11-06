@@ -6,21 +6,21 @@ import './style.css';
 // The complete personal apology. Line breaks and paragraphs are preserved.
 const APOLOGY_NOTE = `Hi Sana, Assalamualaikum! ❤️
 
-I'm really sorry we couldn't meet the other day when you were in Bangalore. Please accept these flowers as a small token of my apology. I know it's not much, but I genuinely wanted to do something, especially since you were sweet enough to reach out and make an effort to meet me. It really meant a lot, and I feel terrible that we couldn't make it happen.
+I'm really sorry we couldn't meet the other day. I feel terrible so please accept these flowers as a small token of my apology. I know it's not much, but I genuinely wanted to do something, especially since you were sweet enough to reach out and make an effort to meet me. It really meant a lot, and I feel terrible that we couldn't make it happen.
 
 And I'll admit, sending flowers with a note like this feels a little out of my comfort zone, especially knowing that someone else might end up reading it too. 😂 But I felt this was the least I could do to properly apologize to you.
 
 Trust me, I was really looking forward to seeing you too!
 
-With the Marquis launch coming up and so much happening at home, things have been a little crazy lately. And as much as I'd love to meet you, last-minute plans have become quite difficult to manage.
+With the Marquis India launch coming up and so much happening at home, things have been a little crazy lately. And as much as I'd love to meet you, last minute plans have become quite difficult to manage.
 
 But here's the thing. I really don't want to meet you in a rush, with a hundred things running through my mind. I'd rather meet you properly, when I can actually sit, talk, laugh, and give you all my time and attention. You deserve that, and I wouldn't want it any other way.
 
 I honestly can't give you a date right now, but I promise that soon enough, something like this will show up again, only this time with a date, a venue, and a proper invitation! And I really, really hope you'll be there. ❤️
 
-Also, please wish Bushra a huge congratulations on her wedding from my side! Wishing her all the happiness in the world. And I'm really looking forward to her new venture too!
+Also, please congratulate Bushra and Mishab on their wedding from my side! Wishing them all the happiness in the world. 
 
-Give my salaam to everyone at home. We'll meet very soon, InshaAllah! ❤️`;
+Convey my salaam to mum and dad at home. We'll meet very soon, InShaAllah! ❤️`;
 
 function Heart({className = ''}) { return <svg className={className} viewBox="0 0 32 29" fill="none" aria-hidden="true"><path d="M16 26S3 18.3 3 9.8C3 3 11.5 1.2 16 7.1 20.5 1.2 29 3 29 9.8 29 18.3 16 26 16 26Z" stroke="currentColor" strokeWidth="1.1"/></svg> }
 function Floral({className = ''}) { return <svg className={className} viewBox="0 0 300 300" aria-hidden="true"><defs><radialGradient id="petal"><stop stopColor="#df9da7" stopOpacity=".75"/><stop offset=".55" stopColor="#edc2c6" stopOpacity=".78"/><stop offset="1" stopColor="#f9e7e4" stopOpacity=".4"/></radialGradient><radialGradient id="petal2"><stop stopColor="#dca2a8" stopOpacity=".7"/><stop offset="1" stopColor="#fff4ee" stopOpacity=".68"/></radialGradient></defs><g fill="none" stroke="#8c9980" strokeWidth="1.2" opacity=".68"><path d="M12 289 Q76 221 106 152 T167 17 M55 271 Q85 178 196 123 M52 276 Q133 230 256 205"/><path d="M87 195 Q36 180 35 136 Q75 145 87 195ZM103 164 Q83 119 106 91 Q123 126 103 164ZM155 154 Q159 112 194 96 Q189 134 155 154ZM146 231 Q177 195 217 199 Q194 228 146 231Z" fill="#a5ad97" fillOpacity=".32"/><path d="M59 261 Q23 244 18 218 Q49 222 59 261ZM190 126 Q215 97 247 104 Q224 130 190 126Z" fill="#9da891" fillOpacity=".3"/></g><g transform="translate(109 118) rotate(-24)"><path d="M0 0 C-47 -7 -71 -41 -77 -84 C-40 -79 -9 -50 0 0Z" fill="url(#petal)"/><path d="M0 0 C-24 -37 -17 -77 3 -108 C24 -72 26 -32 0 0Z" fill="url(#petal2)"/><path d="M0 0 C22 -43 59 -64 88 -58 C75 -22 40 0 0 0Z" fill="url(#petal)"/><path d="M0 0 C-38 7 -58 29 -66 56 C-28 57 -4 38 0 0Z" fill="url(#petal2)"/><path d="M0 0 C17 17 40 37 69 30 C55 4 27 -7 0 0Z" fill="url(#petal2)"/><g fill="none" stroke="#c77f8c" strokeWidth=".7" opacity=".55"><path d="M0 0 Q-30 -36 -67 -75 M0 0 Q1 -47 3 -94 M0 0 Q43 -40 77 -53 M0 0 Q-33 20 -55 49 M0 0 Q35 13 59 25"/></g><g stroke="#ae8751" strokeWidth="1"><path d="M0 0l-15 -30 M0 0l1 -34 M0 0l17 -27"/><circle cx="-15" cy="-30" r="2" fill="#ae8751"/><circle cx="1" cy="-34" r="2" fill="#ae8751"/><circle cx="17" cy="-27" r="2" fill="#ae8751"/></g></g><g transform="translate(211 205) rotate(24) scale(.58)"><path d="M0 0 C-47 -7 -71 -41 -77 -84 C-40 -79 -9 -50 0 0Z" fill="url(#petal)"/><path d="M0 0 C-24 -37 -17 -77 3 -108 C24 -72 26 -32 0 0Z" fill="url(#petal2)"/><path d="M0 0 C22 -43 59 -64 88 -58 C75 -22 40 0 0 0Z" fill="url(#petal)"/><path d="M0 0 C-38 7 -58 29 -66 56 C-28 57 -4 38 0 0Z" fill="url(#petal2)"/><path d="M0 0 C17 17 40 37 69 30 C55 4 27 -7 0 0Z" fill="url(#petal2)"/><circle r="4" fill="#b58a48"/></g></svg> }
